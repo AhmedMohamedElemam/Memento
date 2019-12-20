@@ -1,0 +1,28 @@
+﻿@model Best_Moments.Models.LocalPasswordModel
+@RenderPage("/Views/Shared/_Setting.cshtml")
+
+@{
+    ViewBag.Title = "Change Password";
+}
+
+
+
+@if (ViewBag.HasLocalPassword)
+{
+    @Html.Partial("_ChangePasswordPartial")
+}
+else
+{ 
+    @Html.Partial("_SetPasswordPartial")
+}
+
+@*<section id="externalLogins">
+    @Html.Action("RemoveExternalLogins")
+
+    <h3>Add an external login</h3>
+    @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+</section>*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

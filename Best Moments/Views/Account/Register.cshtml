@@ -1,0 +1,121 @@
+﻿@model Best_Moments.Models.RegisterModel
+@using CaptchaMvc.HtmlHelpers  
+@using CaptchaMvc;
+@{
+    ViewBag.Title = "Register";
+}
+<style>
+        /* styles for validation helpers */
+.field-validation-error {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid darkorange;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: darkorange;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+/* styles for validation helpers */
+.SettingForm 
+{
+margin:25px;
+margin-left:auto;
+margin-right:auto;
+max-width: 500px;
+background: #FFF;
+padding: 30px 30px 20px 30px;
+box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+-webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+font: 12px Arial, Helvetica, sans-serif;
+color: #666;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+.SettingForm h1 
+{
+font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+padding: 0px 0px 10px 40px;
+display: block;
+border-bottom: 1px solid #F5F5F5;
+margin: -10px -30px 10px -30px;
+color: darkorange;
+}
+
+.SettingForm .TXT{
+    color: #555;
+    width: 70%;
+    padding: 3px 0px 3px 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+    height: 25px;
+    line-height:15px;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+    box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+}
+.SettingForm .DDL {
+    background: url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
+    background: url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));
+   -webkit-appearance:none; 
+   -moz-appearance: none;
+    text-indent: 0.01px;
+    width: 70%;
+    line-height: 15px;
+    height: 30px;
+}
+</style>
+
+<div class="SettingForm">
+    <h1>Create New Account</h1>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+                @Html.TextBoxFor(m => m.UserName,new { @class = "TXT" , placeholder = "User Name" })
+    
+                @Html.TextBoxFor(m => m.Email,new { @class = "TXT" , placeholder = "Email" })
+
+                @Html.TextBoxFor(m => m.FirstName,new { @class = "TXT" , placeholder = "First Name" })
+
+                @Html.TextBoxFor(m => m.LastName,new { @class = "TXT" , placeholder = "Last Name" })
+
+                @Html.DropDownList("Gender", (IEnumerable<SelectListItem>)ViewBag.Gender,new { @class = "DDL" })
+<br />
+<br />    
+                @Html.PasswordFor(m => m.Password,new { @class = "TXT" , placeholder = "Password" })
+    
+                @Html.PasswordFor(m => m.ConfirmPassword,new { @class = "TXT" , placeholder = "Confirm Password" })
+    <div style="text-align:left;padding:10px;display:inline-block;box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;border-radius: 10px;
+">
+        @Html.Captcha(4)  
+    </div> 
+            <br />
+            <br /> 
+        <input type="submit" value="Register" class="btn btn-primary" />
+
+}
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

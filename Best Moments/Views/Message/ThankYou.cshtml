@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Thank You";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+.SettingForm 
+{
+text-align:center;
+margin:20px;
+margin-left:auto;
+margin-right:auto;
+max-width: 500px;
+background: #FFF;
+padding: 30px 10px 20px 30px;
+box-shadow: rgba(25, 220, 25, 1) 0 0px 20px -1px;
+-webkit-box-shadow: rgba(25, 220, 25, 1) 0 0px 20px -1px;
+font: 12px Arial, Helvetica, sans-serif;
+color: #666;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+</style>
+
+<div class="SettingForm">
+<h1 style="color:darkorange">Thank You</h1>
+<b><p style="font-size:large">Your mssage was sent successfully</p></b>
+<h4>@Html.ActionLink("Register", "Register", "Account") | @Html.ActionLink("Login", "Login" , "Account") </h4>
+</div>

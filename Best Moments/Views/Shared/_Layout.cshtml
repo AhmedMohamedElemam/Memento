@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+        <script src="~/Scripts/bootstrap.min.js"></script>
+    </head>
+    <body>
+<style>
+body 
+{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height:25px;
+    width: 100%;
+    background-color: darkorange;
+    color: black;
+    text-align: center;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+.nav.navbar-nav.navbar-center li a {
+    color: white;
+}
+.navbar-inverse .navbar-nav.navbar-center  li  a:hover,
+.navbar-inverse .navbar-nav.navbar-center  li  a:focus {
+    color: orange;
+}
+.navbar-inverse .navbar-nav.navbar-right  li  a:hover,
+.navbar-inverse .navbar-nav.navbar-right  li  a:focus {
+    color: orange;
+}
+
+</style>
+        <header>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+   <div class="container-fluid">
+        <div class="navbar-header">
+            <img src="~/Images/Memento-Logo.png" style="width: 50px; height: 50px;" /> &quot
+        </div>
+        <ul class="nav navbar-nav navbar-center" >
+            <li><a href="@Url.Action("Index", "Home")" class="navbar-brand" style="color:darkorange;font-family: Cambria Tahoma;font-size:x-large" > Memento </a></li>
+        </ul>
+            @Html.Partial("_LoginPartial")
+       </div>
+</nav>
+       </header>
+
+
+            @RenderSection("featured", required: false)
+        <div class="container">
+            <div class="row">
+
+                @RenderBody()
+                </div>
+        </div>
+
+        <footer class="footer">
+             <b>&copy; 2018 - Memento</b>
+         </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>

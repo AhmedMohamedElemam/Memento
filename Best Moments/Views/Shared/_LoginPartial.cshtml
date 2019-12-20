@@ -1,0 +1,35 @@
+﻿<link href="~/Content/bootstrap.min.css" rel="stylesheet" /> 
+<script src="~/Scripts/bootstrap.min.js"></script>
+@if (Request.IsAuthenticated) 
+{
+   Best_Moments.Models.UsersContext db = new Best_Moments.Models.UsersContext();
+   Best_Moments.Models.UserProfile user = db.UserProfiles.FirstOrDefault(u => u.UserName.ToLower() == User.Identity.Name.ToLower()); 
+
+        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" })) 
+        {
+            @Html.AntiForgeryToken()
+        
+            <ul class="nav navbar-nav navbar-right">
+                 @if (@user.Image == "Default-Image-Profile.jpg")
+                 {
+                      <li><img src="~/Images/@user.Image" style="width: 50px; height: 50px;border-radius:0%" /></li>
+                 }
+                 else
+                 {
+                      <li><img src="~/Uploades/@user.Image" style="width: 50px; height: 50px;border-radius:0%" /></li>
+                 }
+                <li><a title = "Profile" href="@Url.Action("MyProfile", "Account", routeValues: null)"> @user.FirstName @user.LastName </a></li>
+                <li><a href="@Url.Action("Setting", "Account", routeValues: null)"><span class="glyphicon glyphicon-cog"></span> Setting </a></li>
+                <li><a href="javascript:document.getElementById('logoutForm').submit()"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+            </ul>
+        }
+   
+}
+else 
+{
+    <ul class="nav navbar-nav navbar-right">
+
+            <li><a href="@Url.Action("Register", "Account", routeValues: null)"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+            <li><a href="@Url.Action("Login", "Account", routeValues: null)"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+}

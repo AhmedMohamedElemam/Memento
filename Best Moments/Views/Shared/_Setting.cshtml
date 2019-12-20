@@ -1,0 +1,84 @@
+﻿@*@RenderPage("/Views/Shared/_Setting.cshtml")*@
+
+<style>
+    /* styles for validation helpers */
+.field-validation-error {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid darkorange;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: darkorange;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+/* styles for validation helpers */
+.nav-container {
+    padding-left:185px;
+    overflow: hidden;
+    
+}
+nav.nav-bar ul {
+  list-style: none;
+}
+.nav-list {
+  margin: 0 auto;
+  padding: 0;
+}
+.nav-list li {
+  float: left;
+  margin-right:10px;
+}
+.nav-list li a {
+  display: block;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+  padding: 25px;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition:all 0.25s linear;
+  -moz-transition:all 0.25s linear;
+  -o-transition:all 0.25s linear;
+   transition:all 0.25s linear;
+}
+.nav-list li a:hover {
+  -webkit-filter: brightness(1.25);
+  padding-top: 50px ;
+}
+#tile1 {
+  background-color:darkorange
+}
+#tile2 {
+  background-color:darkorange
+}
+#tile3 {
+  background-color:darkorange
+}
+
+</style>
+<nav class="nav-bar">
+    <div class="nav-container"> 
+        <ul class="nav-list " id="nav">
+            <li id="tile3">@Html.ActionLink("Edit Profile", "EditProfile", "Account")</li>
+            <li id="tile1">@Html.ActionLink("Change Password", "Manage", "Account")</li>
+            <li id="tile2">@Html.ActionLink("Delete Account", "DeleteAccount", "Account")</li>
+        </ul>
+    </div>
+</nav>

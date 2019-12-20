@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Memento";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<script src="~/Scripts/bootstrap.min.js"></script>   
+<style>
+body 
+{
+    background:url('../Images/HomeBG.jpeg') no-repeat center fixed;
+    background-size: cover;
+}
+.home 
+{
+    position:fixed;
+    color:white;
+    padding:0;
+    margin:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(2, 2, 2, 0.35);
+}
+</style>
+<body>
+    <div class="home">
+    <div class="container text-center">
+        <h1 style="font-family:Georgia;color:black">This Is <b style="color:darkorange;font-family:Arial fantasy">Memento</b></h1>
+        <h4 style="font-family:Georgia"><b style="color:black">Memento</b> helps you in remembering your best moments life, by receiving messages from your family, friends and workmates.</h4>
+    </div>
+            
+      <h4 style="text-align:center;color:white"> <a href="@Url.Action("Login", "Account")" style="color:white;text-decoration:none" > Login </a> <b style="color:orange">|</b> <a href="@Url.Action("Register", "Account")" style="color:white;text-decoration:none" > Register </a> </h4>
+  
+</div>
+    </body>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Captcha</id>
+    <version>4.2.0</version>
+    <title>CAPTCHA</title>
+    <authors>Captcha, Inc.</authors>
+    <owners>Captcha, Inc.</owners>
+    <licenseUrl>https://captcha.com/license/aspnet/4.2.0/subscription/license.html</licenseUrl>
+    <projectUrl>http://captcha.com/asp.net-captcha.html?utm_source=nuget&amp;utm_medium=nuget&amp;utm_campaign=4.2.0.0</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BotDetect CAPTCHA Generator protects ASP.NET forms from automated spam submissions. Highly customizable, secure and accessible Captcha protection is available for ASP.NET MVC 1-6 web applications, ASP.NET WebForms, and ASP.NET Web Pages. BotDetect works in China -- and it does not stalk you around 24/7.
+
+BotDetect is unique among Captcha solutions by using many different image and sound algorithms for the generation  of Captcha codes. While each Captcha code algorithm is easily comprehensible to human users, generating Captcha codes by random algorithm makes the Captcha challenge practically impossible to pass automatically. This approach to Captcha security is validated by the BotDetect track record: we have over 3000 paying customers and not one confirmed case of automated Captcha breaking by spammers.
+    
+BotDetect provides an audio Captcha alternative to keep ASP.NET web applications accessible to the blind and other people for whom reading the Captcha code could be a problem, enabling you to make WCAG and Section 508 compliant websites.
+
+Features
+--------------------
+  * 60 secure &amp; readable Captcha image styles
+  * 20 secure &amp; accessible audio Captcha sound styles
+  * Localized Captcha generation, using various Unicode character sets and downloadable multi-language sound pronunciations
+  * Custom Captcha image size, format, color scheme...
+  * Custom Captcha code length, style, character set, timeouts, generated code filtering...
+  * Many other randomization &amp;amp; customization options
+  * Produces XHTML 1.1 Strict, Section 508 and WCAG AAA compliant markup
+  * Visual Studio .NET 2017, 2015, 2013, 2012, 2010, 2008, and 2005 Designer support
+  * Medium trust environment support for shared servers
+  * Fully compatible with ASP.NET MVC applications (ASP.NET MVC 1.0-6.0)
+  * Fully compatible with ASP.NET WebForms applications
+  * Fully compatible with ASP.NET Web Pages applications
+  * Fully compatible with ASP.NET Ajax and jQuery Ajax validation
+  * Fully compatible with SharePoint (2016, 2013, 2010, 2007) Server / Foundation
+  * Tested in Chrome, Firefox, Safari, Edge, IE and Opera browsers released since 2001.
+  * Full support for all Android &amp;amp; iOS devices
+
+What nuget to use?
+--------------------
+Please note that from the version 4.2 onward we will have two BotDetect CAPTCHA nugets on the nuget.org.
+	* Use THIS nuget for ASP.NET applications running on the legacy .NET (non-Core) Frameworks
+	* Use THIS nuget for ASP.NET Core applications running on the .NET Core Frameworks -- from the BotDetect 4.3 onward
+However, there is one special case that required the separate nuget.
+  * Use our NEW helper nuget INSTEAD OF this one for the special case of ASP.NET Core applications running on the legacy .NET (non-Core) Frameworks -- this is available immediately. The new helper nuget name is CAPTCHA.asp.net.core.on.legacy.net.frameworks and it is available at https://www.nuget.org/packages/CAPTCHA.asp.net.core.on.legacy.net.frameworks/</description>
+    <summary>BotDetect CAPTCHA Generator protects ASP.NET forms from automated spam submissions.</summary>
+    <releaseNotes>https://captcha.com/captcha-roadmap-and-release-notes.html#aspnet-release-notes</releaseNotes>
+    <copyright>Copyright © Captcha, Inc. (formerly Lanapsoft) 2004-2017</copyright>
+    <tags>captcha botdetect form forms validation asp.net asp.net-core core-captcha nuget-captcha mvc-captcha mvc mvc6 mvc5 mvc4 mvc3 mvc2 mvc1</tags>
+  </metadata>
+</package>

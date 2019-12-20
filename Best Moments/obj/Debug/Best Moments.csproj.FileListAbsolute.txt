@@ -1,0 +1,54 @@
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\Best Moments.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\Best Moments.pdb
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\Antlr3.Runtime.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\BotDetect.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\BotDetect.Web.Mvc.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\CaptchaMvc.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.AspNet.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.Core.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.OAuth.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.OpenId.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\EntityFramework.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\Microsoft.Web.Infrastructure.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\Newtonsoft.Json.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Net.Http.Formatting.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Helpers.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Http.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Http.WebHost.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Mvc.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Optimization.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Razor.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.WebPages.Deployment.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.WebPages.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.WebPages.Razor.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\WebGrease.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\WebMatrix.Data.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\WebMatrix.WebData.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\CaptchaMvc.pdb
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\CaptchaMvc.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\EntityFramework.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\Newtonsoft.Json.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Net.Http.Formatting.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Helpers.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Http.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Http.WebHost.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Mvc.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.Razor.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.WebPages.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.WebPages.Deployment.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\System.Web.WebPages.Razor.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\WebMatrix.Data.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\WebMatrix.WebData.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.AspNet.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.Core.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.OAuth.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.OpenId.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\obj\Debug\Best Moments.dll
+c:\users\emo\documents\visual studio 2012\Projects\Best Moments\Best Moments\obj\Debug\Best Moments.pdb
+C:\Users\EMO\Documents\Visual Studio 2012\Projects\Best Moments\Best Moments\obj\Debug\Best Moments.csprojResolveAssemblyReference.cache

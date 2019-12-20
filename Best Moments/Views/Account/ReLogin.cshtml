@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Re Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .SettingForm 
+{
+margin:25px;
+margin-left:auto;
+margin-right:auto;
+max-width: 500px;
+background: #FFF;
+padding: 30px 30px 20px 30px;
+box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+-webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+font: 12px Arial, Helvetica, sans-serif;
+color: #666;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+.SettingForm h1 
+{
+font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+padding: 0px 0px 10px 40px;
+display: block;
+border-bottom: 1px solid #F5F5F5;
+margin: -10px -30px 10px -30px;
+color: darkorange;
+}
+</style>
+<div class="SettingForm">
+<h1>Re Login</h1>
+<h3>:: @Html.ActionLink("Login", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" }) with your new user name ::</h3>
+</div>
